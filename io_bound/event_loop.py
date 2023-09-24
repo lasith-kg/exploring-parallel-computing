@@ -26,7 +26,8 @@ def parse_arguments():
     return args
 
 def summary(args):
-    print("Operation Type: I/O Bound Simulation with asyncio (Explicit Event Loop)")
+    print("Operation Type: I/O Bound Simulation with Event Loop")
+    print("Worker Count: 1")
     print(f"Task Count: {args.tasks}")
     print("...")
 
