@@ -116,5 +116,5 @@ python io_bound/process_pool.py --tasks 20 --workers 10
 python io_bound/event_loop.py
 
 # The number of tasks can be manually specified by the --tasks flag
-python io_bound/process_pool.py --tasks 20
+python io_bound/event_loop.py --tasks 20
 ```
